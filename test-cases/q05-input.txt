@@ -1,1 +1,93 @@
+==================================================
+ROUND 2 - QUESTION 5
+Teaching Assistant Role Manager
+==================================================
 
+A Teaching Assistant is both:
+
+1. A Student
+2. An Employee
+
+The program should correctly maintain the common
+Person information.
+
+
+-------------------------
+TEST CASE 1
+-------------------------
+
+Name:
+Aarav
+
+Roll No:
+124
+
+Employee ID:
+501
+
+Working Hours:
+12
+
+Expected Relevant Output:
+Name: Aarav
+Student Roll No: 124
+Working hours: 12
+
+
+-------------------------
+TEST CASE 2
+-------------------------
+
+Name:
+Riya
+
+Roll No:
+210
+
+Employee ID:
+608
+
+Working Hours:
+15
+
+Expected Relevant Output:
+Name: Riya
+Student Roll No: 210
+Working hours: 15
+
+
+-------------------------
+TEST CASE 3
+-------------------------
+
+Name:
+Rahul
+
+Roll No:
+315
+
+Employee ID:
+712
+
+Working Hours:
+18
+
+Expected Relevant Output:
+Name: Rahul
+Student Roll No: 315
+Working hours: 18
+
+
+ADDITIONAL CONCEPT CHECK
+-------------------------
+
+After fixing the program, explain:
+
+1. Why are two Person objects created in the
+   original inheritance structure?
+
+2. What is the diamond inheritance problem?
+
+3. How can virtual inheritance solve the problem?
+
+4. What changes are required in Student and Employee?
