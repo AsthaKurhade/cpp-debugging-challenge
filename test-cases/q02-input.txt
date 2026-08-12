@@ -1,1 +1,52 @@
+==================================================
+ROUND 2 - QUESTION 2
+Task Priority Manager
+==================================================
 
+Lower priority number means higher urgency.
+
+The program currently contains a hardcoded
+priority array.
+
+-------------------------
+TEST CASE 1
+-------------------------
+
+Use:
+5 2 8 3 2 7 4 5 1 3
+
+Expected Sorted Output:
+1 2 2 3 3 4 5 5 7 8
+
+Expected Unique Output:
+1 2 3 4 5 7 8
+
+
+-------------------------
+TEST CASE 2
+-------------------------
+
+Replace the priority array with:
+
+9 4 6 4 2 8 6 1
+
+Expected Sorted Output:
+1 2 4 4 6 6 8 9
+
+Expected Unique Output:
+1 2 4 6 8 9
+
+
+-------------------------
+TEST CASE 3
+-------------------------
+
+Replace the priority array with:
+
+10 3 7 3 5 10
+
+Expected Sorted Output:
+3 3 5 7 10 10
+
+Expected Unique Output:
+3 5 7 10
