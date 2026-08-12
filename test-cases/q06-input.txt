@@ -1,1 +1,80 @@
+==================================================
+ROUND 2 - QUESTION 6
+University Service Calculator
+==================================================
 
+The university calculates service amounts
+differently for students and employees.
+
+Student:
+Receives a discount.
+
+Employee:
+Pays an additional charge.
+
+The program also determines the higher amount.
+
+
+-------------------------
+TEST CASE 1
+-------------------------
+
+Amount:
+1000
+
+Rate:
+10
+
+Expected Output:
+Student amount: 900
+Employee amount: 1100
+Higher amount: 1100
+
+
+-------------------------
+TEST CASE 2
+-------------------------
+
+Amount:
+2000
+
+Rate:
+15
+
+Expected Output:
+Student amount: 1700
+Employee amount: 2300
+Higher amount: 2300
+
+
+-------------------------
+TEST CASE 3
+-------------------------
+
+Amount:
+500
+
+Rate:
+20
+
+Expected Output:
+Student amount: 400
+Employee amount: 600
+Higher amount: 600
+
+
+CONCEPT CHECK
+-------------------------
+
+After fixing the program, explain:
+
+1. How does runtime polymorphism work here?
+
+2. Why is the base class pointer used?
+
+3. Why should the base class have a virtual destructor?
+
+4. What is the purpose of the template function?
+
+5. What type of exception should be handled if
+   the input amount is invalid?
