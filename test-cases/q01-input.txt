@@ -1,1 +1,31 @@
+ROUND 2 - QUESTION 1
+Student Marks Search
 
+TEST CASE 1
+Input:
+60
+
+Expected Output:
+First position: 2
+Last position: 4
+Number of students: 3
+
+
+TEST CASE 2
+Input:
+75
+
+Expected Output:
+First position: 7
+Last position: 8
+Number of students: 2
+
+
+TEST CASE 3
+Input:
+52
+
+Expected Output:
+First position: 1
+Last position: 1
+Number of students: 1
