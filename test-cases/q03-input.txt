@@ -1,1 +1,56 @@
+==================================================
+ROUND 2 - QUESTION 3
+Machine Maintenance Scheduler
+==================================================
 
+Input:
+Two maintenance intervals.
+
+The program should calculate:
+
+1. GCD
+2. LCM
+3. Whether the LCM is prime
+4. Prime factors of the LCM
+
+
+-------------------------
+TEST CASE 1
+-------------------------
+
+Input:
+12 18
+
+Expected Output:
+GCD: 6
+Next common maintenance after: 36 days
+Common interval is not prime
+Prime factors: 2 2 3 3
+
+
+-------------------------
+TEST CASE 2
+-------------------------
+
+Input:
+15 20
+
+Expected Output:
+GCD: 5
+Next common maintenance after: 60 days
+Common interval is not prime
+Prime factors: 2 2 3 5
+
+
+-------------------------
+TEST CASE 3
+-------------------------
+
+Input:
+8 12
+
+Expected Output:
+GCD: 4
+Next common maintenance after: 24 days
+Common interval is not prime
+Prime factors: 2 2 2 3
