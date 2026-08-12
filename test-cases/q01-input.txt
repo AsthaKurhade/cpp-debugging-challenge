@@ -1,7 +1,14 @@
+==================================================
 ROUND 2 - QUESTION 1
 Student Marks Search
+==================================================
 
+The program should search for the given marks.
+
+-------------------------
 TEST CASE 1
+-------------------------
+
 Input:
 60
 
@@ -11,7 +18,10 @@ Last position: 4
 Number of students: 3
 
 
+-------------------------
 TEST CASE 2
+-------------------------
+
 Input:
 75
 
@@ -21,7 +31,10 @@ Last position: 8
 Number of students: 2
 
 
+-------------------------
 TEST CASE 3
+-------------------------
+
 Input:
 52
 
