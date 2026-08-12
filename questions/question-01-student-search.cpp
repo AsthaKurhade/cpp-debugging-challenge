@@ -1,4 +1,5 @@
-//A college stores student marks in sorted order. The program should find the first and last position of a particular mark using binary search and report how many students obtained that mark
+//A college stores student marks in sorted order.
+//The program should find the first and last position of a particular mark using binary search and report how many students obtained that mark
 
 
 #include <iostream>
