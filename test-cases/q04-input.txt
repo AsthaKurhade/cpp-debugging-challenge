@@ -1,1 +1,66 @@
+==================================================
+ROUND 2 - QUESTION 4
+Meeting Duration Calculator
+==================================================
 
+The program stores meeting duration as:
+
+hours
+minutes
+
+The program should add two durations and determine
+which duration is longer.
+
+
+-------------------------
+TEST CASE 1
+-------------------------
+
+Meeting 1:
+2 hours 45 minutes
+
+Meeting 2:
+1 hour 30 minutes
+
+Meeting 3:
+3 hours 20 minutes
+
+Expected Output:
+Total duration: 4 hours 15 minutes
+Meeting 3 is longer
+
+
+-------------------------
+TEST CASE 2
+-------------------------
+
+Meeting 1:
+1 hour 50 minutes
+
+Meeting 2:
+2 hours 30 minutes
+
+Meeting 3:
+4 hours 10 minutes
+
+Expected Output:
+Total duration: 4 hours 20 minutes
+Combined duration is longer
+
+
+-------------------------
+TEST CASE 3
+-------------------------
+
+Meeting 1:
+3 hours 40 minutes
+
+Meeting 2:
+1 hour 35 minutes
+
+Meeting 3:
+5 hours 10 minutes
+
+Expected Output:
+Total duration: 5 hours 15 minutes
+Meeting 3 is longer
