@@ -22,6 +22,8 @@ public:
             throw invalid_argument(
                 "Amount cannot be negative");
     }
+
+    virtual ~Service() {}
 };
 
 class StudentService : public Service
@@ -53,7 +55,7 @@ public:
 template <class T>
 T maximum(T a, T b)
 {
-    if (a < b)
+    if (a > b)
         return a;
 
     return b;
@@ -72,7 +74,7 @@ int main()
     try
     {
         services[0]->validate(amount);
-        services[1]->validate(rate);
+        services[1]->validate(amount);
 
         double studentAmount =
             services[0]->calculate(
@@ -94,9 +96,9 @@ int main()
                     employeeAmount)
              << endl;
     }
-    catch (runtime_error e)
+    catch (const invalid_argument& e)
     {
-        cout << "Runtime error: "
+        cout << "Invalid argument: "
              << e.what() << endl;
     }
 
