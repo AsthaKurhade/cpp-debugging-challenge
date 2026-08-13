@@ -9,7 +9,7 @@ using namespace std;
 int gcd(int a, int b)
 {
     if (b == 0)
-        return b;
+        return a;
 
     return gcd(a % b, b);
 }
@@ -41,7 +41,7 @@ void printPrimeFactors(int n)
     {
         while (n % i == 0)
         {
-            cout << n << " ";
+            cout << i << " ";
             n = n / i;
         }
     }
